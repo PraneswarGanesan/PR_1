@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalnia', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  #main {
+    width: 100%;
+  }
+  
+  .main-content {
+    padding: 2vw 7vw;
+  }
+  
+  .hero {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 1vw;
+    margin-bottom: 5vw;
+    padding: 2vw 7vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sustain {
+    width: 10vw;
+  }
+  
+  .sustain p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: capitalize;
+    margin: 10px 0;
+  }
+  
+  .sustain .susimagewrapper {
+    position: relative;
+    overflow: hidden;
+    width: 13vw;
+    height: 15vw;
+  }
+  
+  .susimagewrapper img {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+  }
+  
+  .ephemeral {
+    width: 30vw;
+    min-height: 42vw;
+    position: relative;
+  }
+  
+  .ephemeral .headings {
+    top: -15%;
+    left: -20%;
+    position: absolute;
+  }
+  
+  .ephemeral h2 {
+    font-size: 4vw;
+    font-weight: 400;
+  }
+  
+  .ephemeral p {
+    font-size: 1.3vw;
+    letter-spacing: -.07vw;
+    line-height: 1.3;
+    width: 40%;
+  }
+  
+  .ephemeral img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #imgtext {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  
+  .motive {
+    padding: 2vw 7vw;
+  }
+  
+  .motive p {
+    top: -8%;
+    position: relative;
+    right: 0%;
+    width: 100%;
+    text-align: right;
+    font-size: 1.7vw;
+  }
+  
+  .pictures {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8vw;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+  }
+  
+  #firstpic {
+    width: 18vw;
+  }
+  
+  #firstpic #picimg {
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+  }
+  
+  #picimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #firstpic h1 {
+    font-weight: 600;
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+  }
+  
+  #firstpic p {
+    opacity: .8;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  #secpic {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 25vw;
+  }
+  
+  #secpic #picimg {
+    width: 100%;
+    height: 37vw;
+    margin-bottom: 1vw;
+  }
+  
+  #secpic h1 {
+    font-weight: 600;
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+  }
+  
+  #secpic p {
+    opacity: .8;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .banner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+  }
+  
+  #bimg {
+    width: 65%;
+    height: 60vh;
+    background-color: red;
+  }
+  
+  #bimg img {
+    width: 100%;
+    height: 100%;
+    object-position: 0% 70%;
+    object-fit: cover;
+  }
+  
+  #btxt {
+    width: 25%;
+    padding: 0 3vw;
+  }
+  
+  #btxt h1 {
+    font-size: 2.8vw;
+    font-weight: 400;
+    letter-spacing: -.15vw;
+    line-height: 1;
+  }
+  
+  #btxt p {
+    margin-top: 10px 20px;
+    width: 60%;
+  }
+  
+  #future {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+  #future video {
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  
+  #ftext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+    background-color: #fff;
+    padding: 1vw 3vw;
+    border-radius: 6px;
+  }
+  
+  #ftext button {
+    padding: .8vw 1.7vw;
+    font-size: .5vw;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-weight: 600;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 1px solid #c6c6c6;
+    color: #6f6f6f;
+  }
+  
