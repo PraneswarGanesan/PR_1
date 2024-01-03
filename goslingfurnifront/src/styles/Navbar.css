@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@300;400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.Navbar {
+    background-color: transparent;
+  }
+  
+  .nav-content {
+    padding: 1vw 4vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+  }
+  
+  .nav-left ul {
+    list-style-type: none;
+    display: flex; /* Display the list items inline */
+    gap: 15px; /* Adjust the gap between list items */
+  }
+  
+  .nav-left li {
+    /* Style for individual list items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-left {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+  }
+.nav-icons{
+    display: flex;
+    gap: 25px; 
+}
+.nav-center{
+  letter-spacing: 7px;
+}
+a {
+  color: inherit; /* this makes the link color the same as the text color */
+  text-decoration: none; /* this removes the underline */
+}

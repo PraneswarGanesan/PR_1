@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.accountcont{
+    margin-top: 5vw;    
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 5vw;
+    height: 50vw;
+}
+.sec-points li{
+    padding-left: 2vw;
+    list-style-type: none;
+}
+.sec-img img{
+    margin-top: 7vw;
+    width: 210px;
+    height: 312px;
+    border-radius: 7px;
+}
+.head-cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec-con{
+    margin-top: 7vw;
+  padding-top: 5vw;
+  margin-right: 3vw;
+}
