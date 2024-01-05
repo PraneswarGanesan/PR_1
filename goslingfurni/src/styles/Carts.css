@@ -1,0 +1,35 @@
+.carts{
+    min-height: 60vh;
+    margin: 80px;
+}
+.lolcarthead{
+    margin-bottom:20px ;
+}
+.lolcarthead2{
+    font-size: larger;
+    margin-top: 50px;
+    margin-left: 85px;
+}
+
+.card-content1{
+    display: flex;
+    justify-content: space-around;
+}
+.arrow1{
+    margin-top: 12px;
+    padding-top: 5px;
+}
+.totalbilling1{
+    margin-left: 2px;
+    margin-top: 30px;
+    font-size: x-large;
+    margin-bottom: 55px;
+}
+
+.buynow1{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.cartitemcards{
+    margin-bottom: 20px;
+}
